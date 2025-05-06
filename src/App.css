@@ -36,3 +36,167 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  padding: 1rem;
+}
+
+.app-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+  padding: 1rem;
+  background: linear-gradient(to right, #1e293b, #334155);
+  border-radius: 0.5rem;
+  color: #e2e8f0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos do componente Dica */
+.dica-container {
+  max-width: 32rem;
+  margin: 0 auto 1.5rem auto;
+  transform: translateZ(0);
+  transition: transform 0.3s;
+}
+
+.dica-content {
+  padding: 1rem;
+  background: linear-gradient(to right, #1e293b, #334155);
+  border: 2px solid #475569;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+}
+
+.dica-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.dica-icon {
+  font-size: 1.125rem;
+  color: #94a3b8;
+}
+
+.dica-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #e2e8f0;
+  margin: 0;
+}
+
+.dica-text {
+  font-size: 1rem;
+  color: #cbd5e1;
+  margin: 0;
+}
+
+/* Estilos do botão elemento */
+.elemento-btn {
+  width: 3rem;
+  height: 3rem;
+  margin: 0.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.elemento-btn.acerto {
+  background-color: #4ade80;
+}
+
+.elemento-btn.erro {
+  background-color: #f87171;
+}
+
+/* Estilos do componente Fase */
+.fase-container {
+  max-width: 32rem;
+  margin: 0 auto 1.5rem auto;
+  transform: translateZ(0);
+  transition: transform 0.3s;
+}
+
+.fase-content {
+  padding: 1rem;
+  background: linear-gradient(to right, #1e293b, #334155);
+  border: 2px solid #475569;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+}
+
+.fase-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.fase-icon {
+  font-size: 1.125rem;
+  color: #94a3b8;
+}
+
+.fase-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #e2e8f0;
+  margin: 0;
+}
+
+.fase-text {
+  font-size: 1rem;
+  color: #cbd5e1;
+  margin: 0;
+}
+
+.atual-container {
+  max-width: 32rem;
+  margin: 0 auto 1.5rem auto;
+  transform: translateZ(0);
+  transition: transform 0.3s;
+}
+
+.atual-content {
+  padding: 1rem;
+  background: linear-gradient(to right, #1e293b, #334155);
+  border: 2px solid #475569;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+}
+
+.atual-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.atual-icon {
+  font-size: 1.125rem;
+  color: #94a3b8;
+}
+
+.atual-nome {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #e2e8f0;
+  margin: 0;
+}
+
+.atual-dica {
+  font-size: 1rem;
+  color: #cbd5e1;
+  margin: 0;
+}
+
+.info-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}

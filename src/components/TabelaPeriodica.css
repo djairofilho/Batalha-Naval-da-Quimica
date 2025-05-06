@@ -1,0 +1,30 @@
+.tabela-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    
+}
+
+.tabela {
+    display: inline-grid;
+    justify-content: center;
+    grid-template-columns: repeat(18, 65px);
+    grid-auto-rows: 65px;
+    gap: 5px;
+    padding: 20px;
+    margin: 5%;
+    background: #1e293b;
+    border-radius: 2rem;
+  }
+  
+  .elemento {
+    background: #0f0f31;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 20px;
+    padding: 4px;
+  }
+  
