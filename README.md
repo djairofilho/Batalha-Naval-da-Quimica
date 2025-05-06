@@ -2,7 +2,7 @@
 
 Um jogo educativo estilo Batalha Naval para aprender sobre elementos químicos.
 
-![Imagem do Jogo](./public/gameplay.png)
+![Imagem do Jogo](gameplay.png)
 
 ## 🎮 Como Jogar
 
