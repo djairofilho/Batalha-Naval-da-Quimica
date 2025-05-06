@@ -2,7 +2,7 @@
 
 Um jogo educativo estilo Batalha Naval para aprender sobre elementos químicos.
 
-![Imagem do Jogo](gameplay.png)
+![Imagem do Jogo](public/gameplay.png)
 
 ## 🎮 Como Jogar
 
@@ -46,7 +46,6 @@ npm start
 
 - Interface intuitiva
 - 9 fases temáticas
-- 36 elementos químicos para descobrir
 - Dicas educativas sobre cada elemento
 - Design responsivo
 - Visual moderno e atraente
