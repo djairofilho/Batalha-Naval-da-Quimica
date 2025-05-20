@@ -52,7 +52,7 @@ npm start
 - Design responsivo
 - Visual moderno e atraente
 
-## Atualiazações
+## Atualizações
 Essa foi a primeira versão, contendo apenas esse modo campanha com 9 fases, mas futuramente o interesse é deixá-lo
 dividido por níveis e ser mais gamificado com tempo e vidas por exemplo.
 
