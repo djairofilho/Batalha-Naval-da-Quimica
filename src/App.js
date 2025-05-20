@@ -59,12 +59,9 @@ function App() {
   useEffect(() => {
     const elementosDaFase = elementosPorFase[fase];
     const total = elementosDaFase.length;
-    const respondidos = elementosDaFase.filter((el) => ["acerto", "erro"].includes(status[el])).length;
-
-    if (respondidos === total) {
+    const respondidos = elementosDaFase.filter((el) => ["acerto", "erro"].includes(status[el])).length;    if (respondidos === total) {
       if (fase < 9) {
         setFase((prev) => prev + 1);
-        setStatus({});
         setAcertos(0);
       } else {
         setDicaAtual("Parabéns! Você completou todas as fases!");
@@ -94,13 +91,15 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1 className="app-title">🧪 Batalha Naval da Química</h1>
       <div className="info-container">
         <Fase numero={fase} descricao={descricoesFases[fase]} />
         <Atual elementoAtual={elementoClicado} />
         <Dica texto={dicaAtual} />
       </div>
-      <TabelaPeriodica onClick={handleClick} statusMap={status} />
+      
+      <div className="tabela-container">
+        <TabelaPeriodica onClick={handleClick} statusMap={status} />
+      </div>
     </div>
   );
 }
