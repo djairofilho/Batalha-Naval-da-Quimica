@@ -6,6 +6,8 @@ Um jogo educativo estilo Batalha Naval para aprender sobre elementos químicos.
 
 ## 🎮 Como Jogar
 
+- Acesse [https://batalha-naval-da-quimica.vercel.app/](https://batalha-naval-da-quimica.vercel.app/)
+
 1. O jogo tem 9 fases, cada uma com um tema diferente
 2. Em cada fase, você precisa encontrar 4 elementos químicos
 3. Use as dicas fornecidas para identificar os elementos
@@ -49,6 +51,11 @@ npm start
 - Dicas educativas sobre cada elemento
 - Design responsivo
 - Visual moderno e atraente
+
+## Atualiazações
+Essa foi a primeira versão, contendo apenas esse modo campanha com 9 fases, mas futuramente o interesse é deixá-lo
+dividido por níveis e ser mais gamificado com tempo e vidas por exemplo.
+
 
 ## 🤝 Contribuindo
 
